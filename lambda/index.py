@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-API_URL = "https://9db1-34-123-217-84.ngrok-free.app/infer"
+API_URL = "https://4202-34-123-217-84.ngrok-free.app/infer"
 
 def handler(event, context):
     message = event.get("message", "")
